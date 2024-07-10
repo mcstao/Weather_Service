@@ -10,12 +10,11 @@ A simple Django application that provides the current temperature, humidity, win
    git clone https://github.com/yourusername/weather_service.git
 
 2. **Build the Docker container**
-   docker-compose up --build
-
-Now you can open:
 
    ```sh
-   http://127.0.0.1:8000/
+   docker-compose up --build
 
+**Now you can open:** http://127.0.0.1:8000/
 
+### Author
 Adilet Anarbaev
