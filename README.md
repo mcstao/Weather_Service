@@ -14,8 +14,8 @@ A simple Django application that provides the current temperature, humidity, win
 
 Now you can open:
 
-```sh
-http://127.0.0.1:8000/
+   ```sh
+   http://127.0.0.1:8000/
 
 
 Adilet Anarbaev
