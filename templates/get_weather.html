@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Погода в </title>
+    <title>{{ weather.city }} погода</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container mt-5">
         <div class="card">
             <div class="card-header">
-                <h2>Текущая температура в </h2>
+                <h2>{{ weather.city }} погода на текущий момент</h2>
             </div>
             <div class="card-body">
-                <h5 class="card-title">Температуа:  °C</h5>
-                <p class="card-text">Влажность: %</p>
-                <p class="card-text">Скорость ветра:  m/s</p>
-                <p class="card-text">Направление ветра: °</p>
+                <h5 class="card-title">Температуа: {{ weather.temperature }} °C</h5>
+                <p class="card-text">Влажность: {{ weather.humidity }}%</p>
+                <p class="card-text">Скорость ветра: {{ weather.wind_speed }} m/s</p>
+                <p class="card-text">Направление ветра: {{ weather.wind_direction }}°</p>
             </div>
         </div>
     </div>
