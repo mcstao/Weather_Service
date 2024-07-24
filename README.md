@@ -7,7 +7,7 @@ A simple Django application that provides the current temperature, humidity, win
 1. **Clone the repository**
 
    ```sh
-   git clone https://github.com/yourusername/weather_service.git
+   git clone https://github.com/mcstao/weather_service.git
 
 2. **Build the Docker container**
 
